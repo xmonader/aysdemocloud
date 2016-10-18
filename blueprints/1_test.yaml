@@ -1,0 +1,23 @@
+sshkey__demo:
+
+g8client__env1:
+    # url: 'du-conv-3.demo.greenitglobe.com'
+    url: 'gig.demo.greenitglobe.com'
+    login: 'thabeta'
+    password: 'password'
+    account: 'Azmy'
+
+vdcfarm__vdcfarm1:
+
+vdc__thabeta:
+    vdcfarm: vdcfarm1
+    g8client: 'env1'
+    # location: 'du-conv-3'
+    location: 'be-conv-2'
+
+blueowncloud__boc1:
+    domain: 'fancycloud.com'
+    vdc: 'thabeta'
+    datadisks:
+        - 1000
+        - 1000
